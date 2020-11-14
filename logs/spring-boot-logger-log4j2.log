@@ -1,0 +1,16 @@
+2020-11-14 20:02:41,636 INFO o.s.b.StartupInfoLogger [main] Starting FrontofficeApplication using Java 15 on leoncio-VirtualBox with PID 47665 (/home/leoncio/backup/frontoffice/target/classes started by leoncio in /home/leoncio/backup/frontoffice)
+2020-11-14 20:02:41,645 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-14 20:02:41,648 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-11-14 20:02:42,613 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-11-14 20:02:42,631 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-14 20:02:42,632 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-14 20:02:42,634 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-14 20:02:42,875 INFO o.a.j.l.DirectJDKLog [main] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-11-14 20:02:42,894 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-14 20:02:42,894 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1201 ms
+2020-11-14 20:02:43,108 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 20:02:43,388 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-11-14 20:02:43,427 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-14 20:02:43,440 INFO o.s.b.StartupInfoLogger [main] Started FrontofficeApplication in 2.266 seconds (JVM running for 3.311)
+2020-11-14 20:02:52,719 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2020-11-14 20:02:52,813 INFO o.s.s.c.ExecutorConfigurationSupport [RMI TCP Connection(2)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'

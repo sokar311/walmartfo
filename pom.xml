@@ -11,7 +11,7 @@
 	<groupId>com.walmart</groupId>
 	<artifactId>frontoffice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>frontoffice</name>
 	<description>Walmart challenge project</description>
 

@@ -1,7 +1,7 @@
 # walmartfo
-Fronoffice for Walmart challenge
+Frontoffice for Walmart challenge
 
-This development was created using spring boot + jsp in order to provide a graphic interfaces to search products.
+This development was created using spring boot + jsp in order to provide a graphic interface to search products from walmart mongodb test product db.
 
 ### Installation
 
@@ -11,7 +11,7 @@ To initialiaze and run the container:
 $ make frontoffice-init
 ```
 
-To run the container (if it has been previusly initialized)
+To run the container (if it has been previously initialized)
 
 ```sh
 $ make frontoffice-start

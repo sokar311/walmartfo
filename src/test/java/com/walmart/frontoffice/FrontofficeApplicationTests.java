@@ -27,18 +27,19 @@ class FrontofficeApplicationTests {
 
 	@Test
 	void pageTest() throws Exception {
-		logger.info("---------- Starting MVC Test ---------------");
+		System.out.println("---------- Starting MVC Test ---------------");
 		
+		System.out.println("trying : https://localhost:8080/search?phrase=1");
 		Map<String, Object> model = mockMvc.perform(get("https://localhost:8080/search?phrase=1")).andDo(print()).andExpect(status().isOk()).andReturn().getModelAndView().getModel();
 		
 		if (!model.get("TotalProductos").equals(1)) {
-			logger.error("Expected a single result, got : " + model.get("TotalProductos"));
+			System.out.println("Expected a single result, got : " + model.get("TotalProductos"));
 			throw new Exception("Expected a single result, got : " + model.get("TotalProductos"));
 		} else {
-			logger.info("Expected a single result, got a single result, OK!");			
+			System.out.println("Expected a single result, got a single result, OK!");			
 		}
 		
-		logger.info("---------- MVC Test Finished ---------------");		
+		System.out.println("---------- MVC Test Finished ---------------");		
 	}
 
 }

@@ -36,3 +36,4 @@ frontoffice-uninstall:
 
 frontoffice-run-test:
 	./mvnw test
+	

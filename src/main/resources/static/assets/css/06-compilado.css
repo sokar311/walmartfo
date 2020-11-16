@@ -2280,6 +2280,7 @@ header {
 
 .cabecera-principal {
   padding: 16px 0;
+  background-color: #007cc2;  
 }
 
 .cabecera-principal__contenedor {
